@@ -27,6 +27,8 @@
 	<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="assets/css/academicons.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 	<!-- end custom head snippets -->
 </head>
 
@@ -40,18 +42,23 @@
 				<div class="author__content">
 					<h3 class="author__name"> Yitao Hu</h3>
 				</div>
+
+				<div class="professor2"><span><i class="myhidden"><a href="mailto:yitao@tju.edu.cn"><i
+									class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+							</a></i>Assistant Professor</span></div>
+
 				<div class="author__urls-wrapper">
 					<!-- <button class="btn btn--inverse">More Info & Contact</button> -->
 					<ul class="author__urls social-icons">
-						<li>
-							<div style="white-space: normal; margin-bottom: 1em;">Assistant Professor</div>
+						<li style="margin-top: 5px;"><a href="https://www.tju.edu.cn/english/index.htm"><i
+									class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Tianjin University</a>
 						</li>
-
-						<li><a href="https://tju.edu.cn/">🏫 Tianjin University</a></li>
-						<li><a href="https://www.cs.usc.edu/">💻 Department of Computer Science</a></li>
-						<li>💡 &nbsp;Office: 55-B-122</li>
-						<li class="someone"><a href="mailto:yitao@tju.edu.cn">📫 yitao@tju.edu.cn</a></li>
-						<li>🏠 Tianjin, China</li>
+						<li><a href="https://cic.tju.edu.cn/english/home.htm"><i class="fa fa-fw fa-map-marker"
+									aria-hidden="true"></i> Department of Computer Science</a></li>
+						<li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Office: 55-B-122</li>
+						<li class="someone"><a href="mailto:yitao@tju.edu.cn"><i class="fas fa-fw fa-envelope"
+									aria-hidden="true"></i> yitao@tju.edu.cn</a></li>
+						<li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Tianjin, China</li>
 					</ul>
 				</div>
 			</div>
@@ -62,22 +69,30 @@
 				<section class="page__content" itemprop="text">
 					<p><span class="anchor" id="about-me"></span></p>
 					<h1><strong>About me</strong></h1>
-					<p>I am a tenure-track assistant professor in Department of Computer Science at Tianjin
-						University and a member of TANK Lab, led by Prof. Keqiu Li. I received my Ph.D. degree from
-						Networked Systems Lab at University of Southern California, advised by Prof. Ramesh Govidan.
-						I obtained my B.S. degree at Shanghai Jiao Tong University, advised by Prof. Xinbing Wang.
+					<p>I am a tenure-track assistant professor in <a href="https://cic.tju.edu.cn/english/home.htm">Department of
+							Computer Science
+							at Tianjin University</a> and a member of <a href="http://www.tjutanklab.com/">TANK Lab</a>, led by <a
+							href="https://cic.tju.edu.cn/faculty/likeqiu/index.html">Prof.Keqiu Li</a>. I received my Ph.D. degree
+						from <a href="https://nsl.usc.edu/">Networked
+							Systems Lab</a> at <a href="https://www.usc.edu/">University of Southern California</a>, advised by <a
+							href="https://govindan.usc.edu/">Prof.Ramesh Govidan</a>.
+						I obtained my B.S. degree at <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, advised by
+						<a href="https://www.cs.sjtu.edu.cn/~wang-xb/">Prof. Xinbing Wang</a>.
 					</p>
-					<p>My research interests include large language model (LLM) systems, deep neural network (DNN)
-						systems, performance analysis and optimization, parallel and distributed computing. My
+					<p>My research interests include <i class="myresearch">large language model (LLM) systems, deep neural network
+							(DNN)
+							systems, performance analysis and optimization, parallel and distributed computing</i>. My
 						recent work delves into developing inference systems capable of deploying LLM and DNN models
 						in large-scale cloud clusters, aiming for peak performance, efficiency and scalability
 						through innovative techniques such as computational acceleration, parallel optimization, and
 						resource orchestration.</p>
 					<p>In collaboration with research institutions like IBM Watson, Samsung Research and Microsoft
 						Research, I have published tens of papers at the leading conferences/journals, including
-						SoCC, Ubicomp, INFOCOM, IWQoS, ASPLOS and TPDS. My research has been funed by NSFC, Huawei,
-						etc. I have received honors such as Chun-Tsung Scholar from Shanghai Jiao Tong University
-						and Qiming Scholar from Tianjin University.</p>
+						<i class="myresearch">SoCC, Ubicomp, INFOCOM, IWQoS, ASPLOS and TPDS</i>. My research has been funed by
+						<i class="myresearch">NSFC, Huawei, etc</i>. I have received honors such as Chun-Tsung Scholar from Shanghai
+						Jiao Tong University
+						and Qiming Scholar from Tianjin University.
+					</p>
 					<div class="lookingfor">
 						<p><strong>
 								I am looking for self-motivated students interested in building systems for large language
@@ -88,72 +103,90 @@
 
 					<h1 id="-news">Research</h1>
 					<p>
-						My research is aiming to build inference systems capable of deploying LLM and DNN models in
-						large-scale cloud clusters with peak performance, efficiency and scalability.
+						My research is aiming to build inference systems capable of <i class="myresearch">deploying LLM and DNN
+							models in large-scale cloud clusters </i>with peak performance, efficiency and scalability.
 					</p>
 					<ul>
 						<li>
-							<h3>large language model system</h3>
+							<h3>Large Language Model System</h3>
+							<h3>Seving Classic LLM</h3>
 							<ul class="myul">
 								<li>
-									serving classic LLM: Serving LLM applications brings new challenges due to their huge
+									Serving LLM applications brings new challenges due to their huge
 									memory consumption and unpredictable output length. We designed novel LLM inference
-									systems (qLLM, tgLLM) to minimize job completion time across LLM requests and to
+									systems <i class="myresearch">(qLLM, tgLLM)</i> to minimize job completion time across LLM requests
+									and to
 									maximize model throughput and resource utilization. We also built various inference
-									systems (InferRAG, InferMM) to manage computation resources under scenarios such as RAG
-									and multi-modal. (Multiple ongoing projects, looking for prospective students to join
-									us!)
+									systems <i class="myresearch">(InferRAG, InferMM)</i> to manage computation resources under scenarios
+									such as <i class="myresearch">RAG and multi-modal</i>.
 								</li>
+							</ul>
+							<h3>Serving Specialized LLM</h3>
+							<ul class="myul">
 								<li>
-									serving specialized LLM: Recent innovations in LLM architecture also bring new
-									challenges. We designed specialized inference systems (SpecInfer, ParaMoE) to optimize
+									Recent innovations in LLM architecture also bring new
+									challenges. We designed specialized inference systems <i class="myresearch">(SpecInfer, ParaMoE)</i>
+									to optimize
 									the inference pipeline for speculative decoding and mixture of expert. Besides, we also
-									investigated interesting topics such as lookahead decoding, LoRA serving, kv-cache
-									optimization, etc. (Multiple ongoing projects, looking for prospective students to join
-									us!)
+									investigated interesting topics such as <i class="myresearch">lookahead decoding, LoRA serving,
+										kv-cache
+										optimization, etc</i>.
 								</li>
 							</ul>
 						</li>
 						<li>
-							<h3>deep neural network system</h3>
+							<h3>Deep Neural Network System</h3>
+							<h3>Latency Sensitive Inference</h3>
 							<ul class="myul">
 								<li>
-									latency sensitive inference: To guarantee good user experiences, DNN-based applications
+									To guarantee good user experiences, DNN-based applications
 									are usually associated with a latency objective. We designed various model orchestration
-									systems (Harpagon, DeepLat, TopInfer) to minimize the serving cost under latency
+									systems <i class="myresearch">(Harpagon, DeepLat, TopInfer)</i> to minimize the serving cost under
+									latency
 									objective via techniques such as dynamic batching, request dispatching and configuration
-									decoupling. We also built various resource scaling systems (SLOpt, DeepChain) to
-									maximize system goodput under bursty workload via techniques such as AoT compilation and
-									model pre-warmup.
+									decoupling. We also built various resource scaling systems <i class="myresearch">(SLOpt,
+										DeepChain)</i> to
+									maximize system goodput under bursty workload via techniques such as <i class="myresearch">AoT
+										compilation and
+										model pre-warmup</i>.
 								</li>
+							</ul>
+							<h3>Complex Scenario</h3>
+							<ul class="myul">
 								<li>
-									complex scenario: Given the use cases, DNN-based applications face various deployment
-									requirements. We have designed multi-stage inference systems (Scrooge, Rim, Olympian) to
+									Given the use cases, DNN-based applications face various deployment
+									requirements. We have designed multi-stage inference systems <i class="myresearch">(Scrooge, Rim,
+										Olympian)</i> to
 									manage DNN models in edge/cloud GPU clusters via techniques such as model co-location
-									and model promotion. We also built specialized systems (ALPS, HRL) to handle complex
+									and model promotion. We also built specialized systems <i class="myresearch">(ALPS, HRL)</i> to handle
+									complex
 									scenario such as multi-modal input and heterogeneous hardware.
 								</li>
 							</ul>
-						</li>
+					</ul>
+					</li>
 					</ul>
 
 					<h1 id="-selected-publications">Selected Publications</h1>
 					<ul>
-						<li>[ASPLOS 24] FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing</li>
-						<li><a href="https://ieeexplore.ieee.org/abstract/document/10188703">[IWQoS 23] High-throughput Sampling,
+						<li>🔥[ASPLOS 24] FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing</li>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/10188703">🔥[IWQoS 23] High-throughput Sampling,
 								Communicating and Training for Reinforcement Learning Systems</a></li>
-						<li><a href="https://ieeexplore.ieee.org/abstract/document/10198904">[TPDS 23] Accelerating Data Delivery of
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/10198904">🔥[TPDS 23] Accelerating Data Delivery
+								of
 								Latency-Sensitive Applications in Container Overlay
 								Network</a></li>
-						<li><a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486993">[SoCC 21] Scrooge: A Cost-Effective Deep
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486993">🔥[SoCC 21] Scrooge: A Cost-Effective Deep
 								Learning Inference System</a></li>
-						<li><a href="https://dl.acm.org/doi/abs/10.1145/3450268.3453521">[IoTDI 21] Rim: Offloading Inference to the
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3450268.3453521">🔥[IoTDI 21] Rim: Offloading Inference to
+								the
 								Edge</a></li>
-						<li><a href="https://dl.acm.org/doi/abs/10.1145/3274808.3274813">[Middleware 18] Olympian: Scheduling GPU
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3274808.3274813">🔥[Middleware 18] Olympian: Scheduling GPU
 								Usage in a Deep Neural Network Model Serving System</a></li>
-						<li><a href="https://dl.acm.org/doi/abs/10.1145/2971648.2971674">[Ubicomp 16] ALPS: Accurate Landmark
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/2971648.2971674">🔥[Ubicomp 16] ALPS: Accurate Landmark
 								Positioning at City Scales</a></li>
-						<li><a href="https://ieeexplore.ieee.org/abstract/document/6848026">[INFOCOM 14] Critical Sensing Range for
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/6848026">🔥[INFOCOM 14] Critical Sensing Range
+								for
 								Mobile Heterogeneous Camera Sensor Networks</a></li>
 					</ul>
 					<h1 id="-honors-and-awards">Honors and Awards</h1>
