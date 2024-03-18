@@ -420,7 +420,7 @@
 }
 
 .students {
-  width: 30%;
+  width: 40%;
   float: left;
   box-sizing: border-box;
   margin-left: 5%;
@@ -431,10 +431,6 @@
   width: 40%;
   float: left;
   box-sizing: border-box;
-
-  /* border: 1px solid black; */
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 
 /* .services .item {
