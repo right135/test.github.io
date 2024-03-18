@@ -433,12 +433,11 @@
   box-sizing: border-box;
 }
 
-/* .services .item {
-  width: 40%;
-} */
-
 @media screen and (max-width:600px) {
   .services {
     width: 100%;
+  }
+  .students{
+	width: 100%;
   }
 }
