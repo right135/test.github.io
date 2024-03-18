@@ -438,6 +438,7 @@
     width: 100%;
   }
   .students{
+	margin-left: 0px;
 	width: 100%;
   }
 }
