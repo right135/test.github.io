@@ -419,13 +419,13 @@
   margin-left: .3em;
 }
 
-.students {
+/* .students {
   width: 40%;
   float: left;
   box-sizing: border-box;
   margin-left: 5%;
   /* border: 1px solid black; */
-}
+/* }
 
 .services {
   width: 40%;
@@ -437,8 +437,18 @@
   .services {
     width: 100%;
   }
-  .students{
-	margin-left: 0px;
-	width: 100%;
+
+  .students {
+    margin-left: 0px;
+    width: 100%;
   }
+} */
+
+.lookingfor {
+  font-size: 17px;
+  color: red;
+}
+
+.someone {
+  white-space: nowrap;
 }

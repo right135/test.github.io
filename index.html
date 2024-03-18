@@ -3,10 +3,10 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Huyi Tao - Homepage</title>
+	<title>Yitao Hu - Homepage</title>
 	<meta property="og:locale" content="en">
-	<meta property="og:site_name" content="Huyi Tao">
-	<meta property="og:title" content="Huyi Tao">
+	<meta property="og:site_name" content="Yitao Hu">
+	<meta property="og:title" content="Yitao Hu">
 	<meta property="og:description" content="About me">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
@@ -35,31 +35,33 @@
 		<div class="sidebar sticky">
 			<div itemscope itemtype="http://schema.org/Person" class="profile_box">
 				<div class="author__avatar">
-					<img src="images/Huyi-Tao.png" class="author__avatar" alt="Huyi Tao">
+					<img src="images/Yitao Hu.png" class="author__avatar" alt="Yitao Hu">
 				</div>
 				<div class="author__content">
-					<h3 class="author__name"> Huyi Tao</h3>
+					<h3 class="author__name"> Yitao Hu</h3>
 				</div>
 				<div class="author__urls-wrapper">
 					<!-- <button class="btn btn--inverse">More Info & Contact</button> -->
 					<ul class="author__urls social-icons">
 						<li>
-							<div style="white-space: normal; margin-bottom: 1em;">Professor</div>
+							<div style="white-space: normal; margin-bottom: 1em;">Assistant Professor</div>
 						</li>
-						<li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> 55-B-122</li>
-						<li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Tianjin University</li>
-						<li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> yitao@tju.edu.cn</li>
-						<li><i class="fas fa-fw fa-phone" aria-hidden="true"></i> +86 166 0064 1268</li>
+
+						<li><a href="https://tju.edu.cn/">🏫 Tianjin University</a></li>
+						<li><a href="https://www.cs.usc.edu/">💻 Department of Computer Science</a></li>
+						<li>💡 &nbsp;Office: 55-B-122</li>
+						<li class="someone"><a href="mailto:yitao@tju.edu.cn">📫 yitao@tju.edu.cn</a></li>
+						<li>🏠 Tianjin, China</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-			<meta itemprop="headline" content="Huyi Tao">
+			<meta itemprop="headline" content="Yitao Hu">
 			<div class="page__inner-wrap">
 				<section class="page__content" itemprop="text">
 					<p><span class="anchor" id="about-me"></span></p>
-					<h1><strong>Professor</strong></h1>
+					<h1><strong>Assistant Professor</strong></h1>
 					<p>I am a tenure-track assistant professor in Department of Computer Science at Tianjin
 						University and a member of TANK Lab, led by Prof. Keqiu Li. I received my Ph.D. degree from
 						Networked Systems Lab at University of Southern California, advised by Prof. Ramesh Govidan.
@@ -76,71 +78,83 @@
 						SoCC, Ubicomp, INFOCOM, IWQoS, ASPLOS and TPDS. My research has been funed by NSFC, Huawei,
 						etc. I have received honors such as Chun-Tsung Scholar from Shanghai Jiao Tong University
 						and Qiming Scholar from Tianjin University.</p>
-					<p>
-						I am looking for self-motivated students interested in building systems for large language
-						model and deep neural network. Feel free to drop me an email if you want to join us!
-					</p>
-					<h1 id="-news">Research/projects</h1>
+					<div class="lookingfor">
+						<p><strong>
+								I am looking for self-motivated students interested in building systems for large language
+								model and deep neural network. Feel free to drop me an email if you want to join us!
+							</strong>
+						</p>
+					</div>
+
+					<h1 id="-news">Research</h1>
 					<p>
 						My research is aiming to build inference systems capable of deploying LLM and DNN models in
 						large-scale cloud clusters with peak performance, efficiency and scalability.
 					</p>
-					<p>
-						large language model system
-					</p>
 					<ul>
 						<li>
-							serving classic LLM: Serving LLM applications brings new challenges due to their huge
-							memory consumption and unpredictable output length. We designed novel LLM inference
-							systems (qLLM, tgLLM) to minimize job completion time across LLM requests and to
-							maximize model throughput and resource utilization. We also built various inference
-							systems (InferRAG, InferMM) to manage computation resources under scenarios such as RAG
-							and multi-modal. (Multiple ongoing projects, looking for prospective students to join
-							us!)
+							<h3>large language model system</h3>
+							<ul>
+								<li>
+									serving classic LLM: Serving LLM applications brings new challenges due to their huge
+									memory consumption and unpredictable output length. We designed novel LLM inference
+									systems (qLLM, tgLLM) to minimize job completion time across LLM requests and to
+									maximize model throughput and resource utilization. We also built various inference
+									systems (InferRAG, InferMM) to manage computation resources under scenarios such as RAG
+									and multi-modal. (Multiple ongoing projects, looking for prospective students to join
+									us!)
+								</li>
+								<li>
+									serving specialized LLM: Recent innovations in LLM architecture also bring new
+									challenges. We designed specialized inference systems (SpecInfer, ParaMoE) to optimize
+									the inference pipeline for speculative decoding and mixture of expert. Besides, we also
+									investigated interesting topics such as lookahead decoding, LoRA serving, kv-cache
+									optimization, etc. (Multiple ongoing projects, looking for prospective students to join
+									us!)
+								</li>
+							</ul>
 						</li>
 						<li>
-							serving specialized LLM: Recent innovations in LLM architecture also bring new
-							challenges. We designed specialized inference systems (SpecInfer, ParaMoE) to optimize
-							the inference pipeline for speculative decoding and mixture of expert. Besides, we also
-							investigated interesting topics such as lookahead decoding, LoRA serving, kv-cache
-							optimization, etc. (Multiple ongoing projects, looking for prospective students to join
-							us!)
+							<h3>deep neural network system</h3>
+							<ul>
+								<li>
+									latency sensitive inference: To guarantee good user experiences, DNN-based applications
+									are usually associated with a latency objective. We designed various model orchestration
+									systems (Harpagon, DeepLat, TopInfer) to minimize the serving cost under latency
+									objective via techniques such as dynamic batching, request dispatching and configuration
+									decoupling. We also built various resource scaling systems (SLOpt, DeepChain) to
+									maximize system goodput under bursty workload via techniques such as AoT compilation and
+									model pre-warmup.
+								</li>
+								<li>
+									complex scenario: Given the use cases, DNN-based applications face various deployment
+									requirements. We have designed multi-stage inference systems (Scrooge, Rim, Olympian) to
+									manage DNN models in edge/cloud GPU clusters via techniques such as model co-location
+									and model promotion. We also built specialized systems (ALPS, HRL) to handle complex
+									scenario such as multi-modal input and heterogeneous hardware.
+								</li>
+							</ul>
 						</li>
 					</ul>
-					<p>
-						deep neural network system
-					</p>
-					<ul>
-						<li>
-							latency sensitive inference: To guarantee good user experiences, DNN-based applications
-							are usually associated with a latency objective. We designed various model orchestration
-							systems (Harpagon, DeepLat, TopInfer) to minimize the serving cost under latency
-							objective via techniques such as dynamic batching, request dispatching and configuration
-							decoupling. We also built various resource scaling systems (SLOpt, DeepChain) to
-							maximize system goodput under bursty workload via techniques such as AoT compilation and
-							model pre-warmup.
-						</li>
-						<li>
-							complex scenario: Given the use cases, DNN-based applications face various deployment
-							requirements. We have designed multi-stage inference systems (Scrooge, Rim, Olympian) to
-							manage DNN models in edge/cloud GPU clusters via techniques such as model co-location
-							and model promotion. We also built specialized systems (ALPS, HRL) to handle complex
-							scenario such as multi-modal input and heterogeneous hardware.
-						</li>
-					</ul>
+
 					<h1 id="-selected-publications">Selected Publications</h1>
 					<ul>
 						<li>[ASPLOS 24] FUYAO: DPU-enabled Direct Data Transfer for Serverless Computing</li>
-						<li>[IWQoS 23] High-throughput Sampling, Communicating and Training for Reinforcement
-							Learning Systems</li>
-						<li>[TPDS 23] Accelerating Data Delivery of Latency-Sensitive Applications in Container
-							Overlay Network</li>
-						<li>[SoCC 21] Scrooge: A Cost-Effective Deep Learning Inference System</li>
-						<li>[IoTDI 21] Rim: Offloading Inference to the Edge</li>
-						<li>[Middleware 18] Olympian: Scheduling GPU Usage in a Deep Neural Network Model Serving
-							System</li>
-						<li>[Ubicomp 16] ALPS: Accurate Landmark Positioning at City Scales</li>
-						<li>[INFOCOM 14] Critical Sensing Range for Mobile Heterogeneous Camera Sensor Networks</li>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/10188703">[IWQoS 23] High-throughput Sampling,
+								Communicating and Training for Reinforcement Learning Systems</a></li>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/10198904">[TPDS 23] Accelerating Data Delivery of
+								Latency-Sensitive Applications in Container Overlay
+								Network</a></li>
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486993">[SoCC 21] Scrooge: A Cost-Effective Deep
+								Learning Inference System</a></li>
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3450268.3453521">[IoTDI 21] Rim: Offloading Inference to the
+								Edge</a></li>
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/3274808.3274813">[Middleware 18] Olympian: Scheduling GPU
+								Usage in a Deep Neural Network Model Serving System</a></li>
+						<li><a href="https://dl.acm.org/doi/abs/10.1145/2971648.2971674">[Ubicomp 16] ALPS: Accurate Landmark
+								Positioning at City Scales</a></li>
+						<li><a href="https://ieeexplore.ieee.org/abstract/document/6848026">[INFOCOM 14] Critical Sensing Range for
+								Mobile Heterogeneous Camera Sensor Networks</a></li>
 					</ul>
 					<h1 id="-honors-and-awards">Honors and Awards</h1>
 					<ul>
@@ -154,20 +168,6 @@
 							<li>Computer Systems, TJU, 23Spring, 24Spring</li>
 							<li>Design and Analysis of Algorithms, TJU, 23Fall</li>
 							<li>Introduction to Internetworking, USC, 16Spring</li>
-						</ul>
-						<h1>Services (remove for now)</h1>
-						<p>Program committee member</p>
-						<ul>
-							<li>ICA3PP</li>
-							<li>ICCCN</li>
-						</ul>
-						<p>Reviewer</p>
-						<ul>
-							<li>ToN</li>
-							<li>NSDI (external)</li>
-							<li>ToSN</li>
-							<li>VTM</li>
-							<li>ChinaComm</li>
 						</ul>
 					</div>
 					<div class="students">
