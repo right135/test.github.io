@@ -475,3 +475,19 @@ a:hover {
     margin-left: 3%;
   }
 }
+
+.myh3 {
+  white-space: nowrap !important;
+}
+
+.myh3 {
+  display: inline-block;
+  /* 或者 inline */
+  white-space: nowrap;
+  /* 不换行 */
+  font-size: 1em;
+  /* 设置字体大小，根据需要调整 */
+  font-weight: bold;
+  /* 设置字体粗细，根据需要调整 */
+  /* 其他样式属性，根据需要添加 */
+}
